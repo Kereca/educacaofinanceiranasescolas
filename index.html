@@ -7,11 +7,15 @@
   </head>
   <body style="background-color: #95fa48;">
     <h1>Cheats de construção The Sims 4</h1>
+<form>
+  <label for="quantity">x:</label>
+  <input type="number" id="quantity" name="quantity" >
+</form>
    
 <p id="demo">Hi.</p>
 
 <script>
-  x=10;
+  var x = document.getElementById("quantity");
   Resultado = x*x*(x+1)/2;
 document.getElementById("demo").innerHTML = Resultado;
 </script>
